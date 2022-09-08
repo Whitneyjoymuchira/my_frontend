@@ -1,6 +1,6 @@
 import * as React from 'react'
 import DropdownMenu from '../DropdownMenu'
-import BoardModal from '../modal/BoardModal'
+import BoardModal from '../modal/BoardModal.js'
 import TaskModal from '../modal/TaskModal'
 import Tasks from '../../containers/Tasks'
 import {
