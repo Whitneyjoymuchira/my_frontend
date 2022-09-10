@@ -1,16 +1,13 @@
 import * as React from 'react'
 import lightTheme from './theme/light-theme'
 import darkTheme from './theme/dark-theme'
-
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-
-import Login from './containers/Login'
-import Projects from './containers/Projects'
-import ProjectDashboard from './containers/ProjectDashboard'
-
-import Layout from './containers/Layout'
+import Login from 'src/container/Login.js'
+import Projects from 'src/container/Projects.js'
+import ProjectDashboard from 'src/container/ProjectDashboard.js'
+import Layout from 'src/container/Layout.js'
 import Box from '@mui/material/Box'
 
 const App = () => {

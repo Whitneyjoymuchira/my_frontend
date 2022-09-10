@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Project from '../components/project/Project'
-import ProjectModal from '../components/modal/ProjectModal'
+import Project from 'src/components/project/Project.js'
+import ProjectModal from 'src/components/modal/ProjectModal.js'
 import { Typography, Grid, IconButton, Tooltip, Box } from '@mui/material'
 import ControlPointIcon from '@mui/icons-material/ControlPoint'
 import Skeleton from '@mui/material/Skeleton'

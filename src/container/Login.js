@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from '../components/nav/Logo'
+import { Logo } from 'src/components/Nav/Logo.js'
 import { Grid, Typography, Button, Box } from '@mui/material'
 
 const Login = ({ history }) => {

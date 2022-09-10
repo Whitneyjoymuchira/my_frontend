@@ -1,7 +1,7 @@
 import * as React from 'react'
 import '../css/task.css'
 import { parseDate } from '../helpers/changeDate'
-import Task from '../components/task/Task'
+import Task from 'src/components/project/Task/Task.js'
 import { Grid, Typography } from '@mui/material'
 
 const Tasks = ({

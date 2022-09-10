@@ -1,9 +1,9 @@
 import * as React from 'react'
 import '../../css/modal.css'
-import { palette } from '../../theme/palette'
-import TitleField from './TitleField'
-import ColorPicker from './ColorPicker'
-import { SaveButton } from './SaveButton'
+import { palette } from 'src/theme/palette.js'
+import TitleField from 'src/components/modal/TitleField.js'
+import ColorPicker from 'src/components/modal/ColorPicker.js'
+import { SaveButton } from 'src/components/modal/SaveButton.js'
 import { Typography, Modal } from '@mui/material'
 
 const ProjectModal = ({

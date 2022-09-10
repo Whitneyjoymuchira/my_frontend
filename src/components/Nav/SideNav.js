@@ -1,7 +1,7 @@
 import * as React from 'react'
 import '../../css/sidenav.css'
-import ProjectList from './Projectlist'
-import FavoriteList from './FavoriteList'
+import ProjectList from 'src/components/Nav/Projectlist.js'
+import FavoriteList from 'src/components/Nav/FavoriteList.js'
 import { Logo } from './Logo'
 import { Link } from 'react-router-dom'
 import { Typography, Toolbar, Divider } from '@mui/material'
@@ -29,7 +29,7 @@ const Navigation = ({ projects, favorites, mode, fetchProjects }) => {
             noWrap
             sx={{ color: mode ? '#444' : '#fff' }}
             align='center'>
-            Mercury
+            Retrogade
           </Typography>
         </a>
       </Toolbar>

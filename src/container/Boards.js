@@ -1,8 +1,8 @@
 import * as React from 'react'
 import '../css/boards.css'
-import Board from '../components/board/Board'
-import CreateBoard from '../components/board/CreateBoard'
-import BoardModal from '../components/modal/BoardModal'
+import Board from 'src/components/Board/Board.js'
+import CreateBoard from 'src/components/Board/CreateBoard.js'
+import BoardModal from 'src/components/modal/BoardModal.js'
 import { Container, Grid } from '@mui/material'
 
 const Boards = ({

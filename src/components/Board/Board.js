@@ -1,8 +1,8 @@
 import * as React from 'react'
-import DropdownMenu from '../DropdownMenu'
-import BoardModal from '../modal/BoardModal.js'
-import TaskModal from '../modal/TaskModal'
-import Tasks from '../../containers/Tasks'
+import DropdownMenu from 'src/components/DropdownMenu.js'
+import BoardModal from 'src/components/modal/BoardModal.js'
+import TaskModal from 'src/components/modal/TaskModal.js'
+import Tasks from 'src/container/Tasks.js'
 import {
   Grid,
   Typography,
