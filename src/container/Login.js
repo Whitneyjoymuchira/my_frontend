@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from 'src/components/Nav/Logo.js'
+import { Logo } from '/home/whitney/my-app-frontend/src/components/Nav/Logo.js'
 import { Grid, Typography, Button, Box } from '@mui/material'
 
 const Login = ({ history }) => {

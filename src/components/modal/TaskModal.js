@@ -1,8 +1,8 @@
 import React from 'react'
-import { changeDate, changeDateToApiFormat } from 'src/helpers/changeDate.js'
-import { priorityColor, statusColor } from 'src/helpers/taskTags.js'
-import TitleField from 'src/components/modal/TitleField.js'
-import { SaveButton } from 'src/components/modal/SaveButton.js'
+import { changeDate, changeDateToApiFormat } from '/home/whitney/my-app-frontend/src/helpers/changeDate.js'
+import { priorityColor, statusColor } from '/home/whitney/my-app-frontend/src/helpers/taskTags.js'
+import TitleField from '/home/whitney/my-app-frontend/src/components/modal/TitleField.js'
+import { SaveButton } from '/home/whitney/my-app-frontend/src/components/modal/SaveButton.js'
 import {
   Typography,
   Modal,

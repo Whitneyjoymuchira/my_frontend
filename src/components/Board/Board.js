@@ -1,8 +1,8 @@
 import * as React from 'react'
-import DropdownMenu from 'src/components/DropdownMenu.js'
-import BoardModal from 'src/components/modal/BoardModal.js'
-import TaskModal from 'src/components/modal/TaskModal.js'
-import Tasks from 'src/container/Tasks.js'
+import DropdownMenu from '/home/whitney/my-app-frontend/src/components/DropdownMenu.js'
+import BoardModal from '/home/whitney/my-app-frontend/src/components/modal/BoardModal.js'
+import TaskModal from '/home/whitney/my-app-frontend/src/components/modal/TaskModal.js'
+import Tasks from '/home/whitney/my-app-frontend/src/container/Tasks.js'
 import {
   Grid,
   Typography,

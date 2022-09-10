@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { ProjectColors } from '../helpers/ProjectColors'
-import DropdownMenu from 'src/components/DropdownMenu.js'
-import ProjectModal from 'src/components/modal/ProjectModal.js'
-import Boards from './Boards'
+import DropdownMenu from '/home/whitney/my-app-frontend/src/components/DropdownMenu.js'
+import ProjectModal from '/home/whitney/my-app-frontend/src/components/modal/ProjectModal.js'
+import Boards from '/home/whitney/my-app-frontend/src/container/Boards.js'
 import {
   Typography,
   Grid,

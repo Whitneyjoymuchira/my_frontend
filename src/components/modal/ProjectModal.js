@@ -1,9 +1,9 @@
 import * as React from 'react'
 import '../../css/modal.css'
-import { palette } from 'src/theme/palette.js'
-import TitleField from 'src/components/modal/TitleField.js'
-import ColorPicker from 'src/components/modal/ColorPicker.js'
-import { SaveButton } from 'src/components/modal/SaveButton.js'
+import { palette } from '/home/whitney/my-app-frontend/src/theme/palette.js'
+import TitleField from '/home/whitney/my-app-frontend/src/components/modal/TitleField.js'
+import ColorPicker from '/home/whitney/my-app-frontend/src/components/modal/ColorPicker.js'
+import { SaveButton } from '/home/whitney/my-app-frontend/src/components/modal/SaveButton.js'
 import { Typography, Modal } from '@mui/material'
 
 const ProjectModal = ({

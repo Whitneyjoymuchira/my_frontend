@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { changeDate } from '../../helpers/changeDate'
-import { priorityColor, statusColor } from '../../helpers/taskTags'
-import DropdownMenu from '../DropdownMenu'
-import TaskModal from '../modal/TaskModal'
+import { changeDate } from '/home/whitney/my-app-frontend/src/helpers/changeDate.js'
+import { priorityColor, statusColor } from '/home/whitney/my-app-frontend/src/helpers/taskTags.js'
+import DropdownMenu from '/home/whitney/my-app-frontend/src/components/DropdownMenu.js'
+import TaskModal from '/home/whitney/my-app-frontend/src/components/modal/TaskModal.js'
 import {
   Card,
   Container,

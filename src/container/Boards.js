@@ -1,8 +1,8 @@
 import * as React from 'react'
-import '../css/boards.css'
-import Board from 'src/components/Board/Board.js'
-import CreateBoard from 'src/components/Board/CreateBoard.js'
-import BoardModal from 'src/components/modal/BoardModal.js'
+import '/home/whitney/my-app-frontend/src/css/boards.css'
+import Board from '/home/whitney/my-app-frontend/src/components/Board/Board.js'
+import CreateBoard from '/home/whitney/my-app-frontend/src/components/Board/CreateBoard.js'
+import BoardModal from '/home/whitney/my-app-frontend/src/components/modal/BoardModal.js'
 import { Container, Grid } from '@mui/material'
 
 const Boards = ({

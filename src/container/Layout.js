@@ -4,8 +4,8 @@ import Toolbar from '@mui/material/Toolbar'
 import Container from '@mui/material/Container'
 import Grid from '@mui/material/Grid'
 import Paper from '@mui/material/Paper'
-import TopNav from 'src/components/Nav/TopNav.js'
-import SideNav from 'src/components/Nav/SideNav.js'
+import TopNav from '/home/whitney/my-app-frontend/src/components/Nav/TopNav.js'
+import SideNav from '/home/whitney/my-app-frontend/src/components/Nav/SideNav.js'
 import { useLocation } from 'react-router-dom'
 
 const drawerWidth = 240

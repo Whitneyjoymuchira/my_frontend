@@ -1,8 +1,8 @@
 import * as React from 'react'
-import '../../css/project.css'
+/*import '../../css/project.css'*/
 import { ProjectColors } from '../../helpers/ProjectColors'
-import DropdownMenu from '../DropdownMenu'
-import ProjectModal from '../modal/ProjectModal'
+import DropdownMenu from '/home/whitney/my-app-frontend/src/components/DropdownMenu.js'
+import ProjectModal from '/home/whitney/my-app-frontend/src/components/modal/ProjectModal.js'
 import { Link } from 'react-router-dom'
 import LinearProgressWithLabel from './LinearProgressWithLabel'
 import {
