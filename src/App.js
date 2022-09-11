@@ -27,13 +27,13 @@ const App = () => {
   }, [])
 
   const fetchProjects = () => {
-    fetch('/api/projects')
+    fetch("http://localhost:9292")
       .then((res) => res.json())
       .then((data) => setProjects(data))
   }
 
   const patchProjects = (project) => {
-    fetch(`/api/projects/${project.id}`, {
+    fetch(`http://localhost:9292/${project.id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
@@ -48,7 +48,7 @@ const App = () => {
   }
 
   const postProjects = (project) => {
-    fetch('/api/projects/', {
+    fetch('http://localhost:9292/tasks', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ const App = () => {
       (project) => project.id !== deleteProject.id
     )
 
-    fetch(`/api/projects/${deleteProject.id}`, {
+    fetch(`"http://localhost:9292/${deleteProject.id}`, {
       method: 'DELETE',
     })
 

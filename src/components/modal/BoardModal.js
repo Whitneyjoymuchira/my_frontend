@@ -1,6 +1,6 @@
 import React from 'react'
-import TitleField from 'src/components/modal/TitleField.js'
-import { SaveButton } from 'src/components/modal/SaveButton.js'
+import TitleField from '/home/whitney/my-app-frontend/src/components/modal/TitleField.js'
+import { SaveButton } from '/home/whitney/my-app-frontend/src/components/modal/SaveButton.js'
 import { Typography, Modal } from '@mui/material'
 
 const BoardModal = ({

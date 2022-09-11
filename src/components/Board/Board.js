@@ -3,6 +3,7 @@ import DropdownMenu from '/home/whitney/my-app-frontend/src/components/DropdownM
 import BoardModal from '/home/whitney/my-app-frontend/src/components/modal/BoardModal.js'
 import TaskModal from '/home/whitney/my-app-frontend/src/components/modal/TaskModal.js'
 import Tasks from '/home/whitney/my-app-frontend/src/container/Tasks.js'
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import {
   Grid,
   Typography,
@@ -11,7 +12,7 @@ import {
   IconButton,
   Button,
 } from '@mui/material'
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz'
+
 import AddIcon from '@mui/icons-material/Add'
 
 const Board = ({

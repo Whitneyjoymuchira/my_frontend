@@ -6,8 +6,7 @@ import { Logo } from '/home/whitney/my-app-frontend/src/components/Nav/Logo.js'
 import { Link } from 'react-router-dom'
 import { Typography, Toolbar, Divider } from '@mui/material'
 import { Drawer } from '@mui/material'
-import { useHistory } from 'react-router-dom'
-
+import { useHistory } from "react-router-dom"
 const drawerWidth = 240
 
 const Navigation = ({ projects, favorites, mode, fetchProjects }) => {
